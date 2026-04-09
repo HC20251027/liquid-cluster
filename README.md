@@ -366,7 +366,8 @@ Agent 可以自动**建议**，但人类拥有最终**决定权**。
 
 ## 灵感来源
 
-- [agentsmd/agents.md](https://github.com/agentsmd/agents.md) — 只开源一个文档，让 AI 帮你写代码 💡
+- [OpenClaw](https://github.com/openclaw/openclaw) — 353K Star，一个人 + AI 编程助手从零写出的开源项目，100% 代码由 AI 生成 🦞
+- [yetone/voice-input-src](https://github.com/yetone/voice-input-src) — 只开源一个提示词，让 AI 帮你写代码 💡
 - [Harness Engineering](https://github.com/nousresearch/hermes-agent) — "Agent = Model + Harness" 范式
 - [Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — AI 自维护知识库的基础方案
 - [YOYO](https://www.runyoyo.com/) — AI 时代的影子版本控制
