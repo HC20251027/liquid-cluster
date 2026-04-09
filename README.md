@@ -6,16 +6,25 @@ Penta Harness 是一套 **Agent 工程规则体系**，核心思想是：**子 A
 
 ## 如何使用
 
-**把本文件（README.md）复制到你的项目根目录，重命名为 `AGENTS.md`。**
+本仓库**只开源设计蓝图，不包含任何代码实现**。这正是精髓所在——
 
-AI 编程助手（Claude Code / Codex / Cursor / Windsurf 等）会自动读取 `AGENTS.md` 作为行为指南。之后每次使用 Agent 时，它会自觉遵守本文件中定义的规则——子 Agent 自然存活、白盒归档、知识库自维护、Skill 自动进化。
+**把本文件喂给你的 AI 编程助手（Claude Code / Codex / Cursor / Windsurf），让它帮你把代码写出来。**
 
 ```bash
-# 一行命令，即刻生效
-curl -o AGENTS.md https://raw.githubusercontent.com/HC20251027/liquid-cluster/main/README.md
+# 方式一：直接丢给 AI
+# 打开 Claude Code / Codex / Cursor，粘贴以下提示词：
+
+"请阅读 https://github.com/HC20251027/liquid-cluster 的 README.md，
+根据其中的设计蓝图，帮我实现完整的 Penta Harness 系统。"
+
+# 方式二：下载后让 AI 读取
+curl -LO https://raw.githubusercontent.com/HC20251027/liquid-cluster/main/README.md
+# 然后在编程工具中打开这个文件，对 AI 说：
+# "按照这个文档的设计，帮我生成完整的代码实现。"
 ```
 
-或者手动将本文件复制为 `AGENTS.md` 放到项目根目录即可。
+> 💡 **为什么只给文档不给代码？**
+> 因为这份文档本身就是给 AI 看的施工图。AI 编程助手读取后能理解每一个模块的设计意图和数据流，生成的代码比直接复制粘贴更贴合你自己的项目结构。每个人拿到的实现都是为自己量身定制的。
 
 ---
 
