@@ -4,7 +4,24 @@
 
 Penta Harness 是一套 **Agent 工程规则体系**，核心思想是：**子 Agent 不是一次性工具，而是可以通过使用频率自然"转正"的集群成员。**
 
-任何 AI Agent 框架（Claude Code / Codex / Hermes Agent / LangChain DeepAgents 等）拉取本项目后即可获得：
+## 如何使用
+
+**把本文件（README.md）复制到你的项目根目录，重命名为 `AGENTS.md`。**
+
+AI 编程助手（Claude Code / Codex / Cursor / Windsurf 等）会自动读取 `AGENTS.md` 作为行为指南。之后每次使用 Agent 时，它会自觉遵守本文件中定义的规则——子 Agent 自然存活、白盒归档、知识库自维护、Skill 自动进化。
+
+```bash
+# 一行命令，即刻生效
+curl -o AGENTS.md https://raw.githubusercontent.com/HC20251027/liquid-cluster/main/README.md
+```
+
+或者手动将本文件复制为 `AGENTS.md` 放到项目根目录即可。
+
+---
+
+## 你将获得的能力
+
+任何 AI Agent 框架拉取本项目后即可获得：
 
 - 🧬 **子 Agent 自然存活** — 高频使用的子 Agent 自动升级为常驻成员
 - 📖 **Git Wiki 知识库** — AI 自维护的 Markdown 知识库，Git + YOYO 版本控制，人类随时审查
